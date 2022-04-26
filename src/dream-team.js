@@ -19,13 +19,13 @@ function createDreamTeam( members ) {
   return false
   
     
-      // if (typeof members[i] == "string") {
+      if (typeof members.e == "string") {
        
 let letters = members.map((e) => e[0].toUpperCase())
 
     return letters.sort().join('')
   
-// };       
+};       
 }
 
 module.exports = {
