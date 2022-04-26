@@ -19,7 +19,7 @@ function createDreamTeam( members ) {
   return false
   
     
-      if (typeof members[0] == "string") {
+      if (typeof members[0] == String) {
        
 let letters = members.map((e) => e[0].trim().toUpperCase())
 
