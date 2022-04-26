@@ -21,10 +21,10 @@ function createDreamTeam( members ) {
     
       if (typeof members[0] == "string") {
        
-let letters = members.map((e) => e[0].toUpperCase())
+let letters = members.map((e) => e[0].trim().toUpperCase())
 
-    return letters.
-   trim().sort().join('')
+    return letters
+    .sort().join('')
   
 };       
 }
