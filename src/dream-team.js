@@ -15,11 +15,11 @@ const { NotImplementedError } = require('../extensions/index.js');
  */
 function createDreamTeam( members ) {
    
-  if (!Array.isArray(members)|| !String) 
+  if (!Array.isArray(members) || !String) {
   return false
   
     
-      if (typeof members == String) {
+      // if (typeof members == String) {
        
 let letters = members.map((e) => e[0].trim().toUpperCase())
 
@@ -31,3 +31,7 @@ let letters = members.map((e) => e[0].trim().toUpperCase())
 module.exports = {
   createDreamTeam
 };
+
+
+
+
