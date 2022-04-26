@@ -23,7 +23,8 @@ function createDreamTeam( members ) {
        
 let letters = members.map((e) => e[0].toUpperCase())
 
-    return letters.sort().join('')
+    return letters.
+   trim().sort().join('')
   
 };       
 }
