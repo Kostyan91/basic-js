@@ -32,7 +32,7 @@ function dateSample( sampleActivity ) {
    let t = Math.ceil(
      Math.log(MODERN_ACTIVITY / parseFloat(sampleActivity)) / (0.693 / HALF_LIFE_PERIOD)
    );
-       
+            
    if(  isNaN(t)){
      return false
    }     
