@@ -17,7 +17,7 @@ const HALF_LIFE_PERIOD = 5730;
  * dateSample('WOOT!') => false
  *
  */
-function dateSample(/* sampleActivity */) {
+function dateSample( sampleActivity ) {
   let  HALF_LIFE_PERIOD = 5730;
     let  MODERN_ACTIVITY = 15 ;
   
