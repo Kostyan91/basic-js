@@ -30,7 +30,7 @@ function countCats( matrix ) {
   return(a);
 } 
 
-
+    
 module.exports = {
   countCats
 };
