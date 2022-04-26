@@ -17,16 +17,18 @@ function createDreamTeam( members ) {
    
   if (!Array.isArray(members) || !String) {
   return false
-  
+  }
+
+  else{
     
       // if (typeof members == String) {
        
 let letters = members.map((e) => e[0].trim().toUpperCase())
 
     return letters.sort().join('')
-  
+  }
 };       
-}
+
 
 module.exports = {
   createDreamTeam
