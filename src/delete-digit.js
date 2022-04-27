@@ -13,8 +13,15 @@ const { NotImplementedError } = require('../extensions/index.js');
  */
 function deleteDigit( n ) {
   let arr = n.toString().split('')
-  let min = Math.min(...arr);
-  let d = arr.filter(e =>  e !== min  ).join('');
+  for (let i = 0; i < arr.length; i++) {
+  if(arr[i] < arr[i] + 1){
+    delete arr[i]
+    let d = arr.join('')
+    return Number(d)
+  }else {
+    delete arr[arr.length-1]
+  }
+  }
   return Number(d)
 }
 
