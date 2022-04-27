@@ -30,9 +30,9 @@ function createDreamTeam( members ) {
           newArr.push(a);
          }
       }
-      let arr2 = newArr.sort();
+      let a = newArr.sort().join('');
     
-      let a = arr2.join("");
+      // let a = arr2.join("");
     
       let result = [];
     
