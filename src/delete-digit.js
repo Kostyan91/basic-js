@@ -14,8 +14,8 @@ const { NotImplementedError } = require('../extensions/index.js');
 function deleteDigit( n ) {
   let arr = n.toString().split('')
   let min = Math.min(...arr);
-  let d = arr.filter(e => e !== min ).join('');
-  return Number(d)
+ arr.filter(e =>  e != min  ).join('');
+  return Number(arr)
 }
 
 module.exports = {
