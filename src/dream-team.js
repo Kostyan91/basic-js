@@ -34,10 +34,10 @@ function createDreamTeam( members ) {
     
       // let a = arr2.join("");
     
-      let result = [];
+      // let result = [];
     
-      result.push(a);
-      return result;      
+      // result.push(a);
+      return a;      
     }
 module.exports = {
   createDreamTeam
