@@ -20,9 +20,10 @@ function deleteDigit( n ) {
     return Number(d)
   }else {
     delete arr[arr.length-1]
+    return Number(d)
   }
   }
-  return Number(d)
+ 
 }
 
 module.exports = {
