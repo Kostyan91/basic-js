@@ -18,6 +18,10 @@ function deleteDigit( n ) {
     delete arr[i]
     let d = arr.join('')
     return Number(d)
+  }
+    else if (arr[i] == 0){
+      delete arr[i]
+    
   }else {
     delete arr[arr.length-1]
     return Number(d)
