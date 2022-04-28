@@ -20,7 +20,7 @@ function deleteDigit( n ) {
     return Number(d)
    
   }else {
-     arr.pop()
+  let d =   arr.pop()
     return Number(d)
   }
   }
