@@ -19,11 +19,13 @@ function deleteDigit( n ) {
     let d = arr.join('')
     return Number(d)
    
-  }else {
-  let d=  arr.splice(-1)
-    return Number(d)
   }
+ 
   }
+  
+  arr.splice(-1)
+  let d = arr.join('')
+  return(Number(d))
 }
 
 
