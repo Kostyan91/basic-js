@@ -24,7 +24,8 @@ function deleteDigit( n ) {
     return Number(d)
   }
   }
- 
+  let d =   arr.pop()
+  return Number(d)
 }
 
 module.exports = {
