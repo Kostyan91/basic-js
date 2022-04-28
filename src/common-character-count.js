@@ -16,14 +16,14 @@ function getCommonCharacterCount( s1, s2 ) {
  for(var i = 0; i <= s1.length; i++) {
   for(var j = i+1; j <= s2.length; j++) {
       if(s2[j] == s1[i]) {
-        return count++
+         count++
 
   }
   
 }
  }
 
-
+ return count++
 
 }
 
