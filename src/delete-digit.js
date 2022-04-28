@@ -20,13 +20,13 @@ function deleteDigit( n ) {
     return Number(d)
    
   }else {
-  let d =   arr.pop()
+  let d=  arr.splice(-1)
     return Number(d)
   }
   }
-  let d =   arr.pop()
-  return Number(d)
 }
+
+
 
 module.exports = {
   deleteDigit
