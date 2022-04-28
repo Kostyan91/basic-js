@@ -14,16 +14,13 @@ const { NotImplementedError } = require('../extensions/index.js');
 function deleteDigit( n ) {
   let arr = n.toString().split('')
   for (let i = 0; i < arr.length; i++) {
-  if(arr[i] < arr[i] + 1){
-    delete arr[i]
+  if(arr[i] < arr[i + 1]){
+     arr.splice(i,1)
     let d = arr.join('')
     return Number(d)
-  }
-    else if (arr[i] == 0){
-      delete arr[i]
-    
+   
   }else {
-    delete arr[arr.length-1]
+     arr.pop()
     return Number(d)
   }
   }
