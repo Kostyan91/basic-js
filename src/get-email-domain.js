@@ -15,7 +15,7 @@ function getEmailDomain( email ) {
   //   if(email[i] === '@'){
      return  email.slice(email.lastIndexOf('@') + 1);
          
-    }
+    }   
     
   //   }
   // const emails = email.split('@');
